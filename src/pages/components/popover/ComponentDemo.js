@@ -35,6 +35,8 @@ const knobs = {
 const links = {
   React:
     'https://react.carbondesignsystem.com/?path=/story/components-popover--playground',
+  'Web Components':
+    'https://web-components.carbondesignsystem.com/?path=/story/components-popover--tab-tip',
 };
 
 function PopoverComponentDemo() {
@@ -43,8 +45,7 @@ function PopoverComponentDemo() {
       components={components}
       scope={{
         Checkbox,
-      }}
-    >
+      }}>
       <ComponentVariant id="popover" knobs={knobs} links={links}>
         {content}
       </ComponentVariant>
